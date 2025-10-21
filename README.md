@@ -74,6 +74,13 @@ src/
 └── main.tsx        # App bootstrap with providers
 ```
 
+### Routes
+
+- `/login` — User authentication page
+- `/` — Displays the user hierarchy tree (main app view)
+
+The hierarchy page is set as the root route so users immediately see the organization structure after logging in.
+
 ## UX Considerations
 
 - Login page is inspired from existing Gong welcome sign in page so input fields have placeholders of what is expected.
@@ -84,4 +91,4 @@ src/
 
 ## Deployment
 
-Live demo:
+Live demo: https://gong-frontend-exercise.vercel.app
